@@ -3,6 +3,7 @@ ENV['RACK_ENV'] = 'test'
 require './app'
 require 'capybara'
 require 'capybara/rspec'
+require 'pg'
 
 Capybara.app = Bookmarks
 
